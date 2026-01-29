@@ -62,7 +62,7 @@ Saved the transformed data into a new CSV file.
 
 Prepared the data for downstream analytics, dashboards, or database loading.
 
-<h1><B> Project Structure </B></h1>
+<h3><B> Project Structure </B></h3>
 
 ETL_2.ipynb → Jupyter Notebook containing the ETL pipeline code
 
