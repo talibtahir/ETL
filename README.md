@@ -2,39 +2,35 @@
 
 This project demonstrates a complete ETL (Extract, Transform, Load) pipeline built using Python and Pandas. The objective of this project is to extract raw sales data from a CSV file, transform it into a clean and analysis-ready format, and load the processed data for further analytics and reporting.
 
-* Project Overview
+## Project Overview 
 
 The dataset used in this project is the Global Superstore sales dataset. It contains information related to orders, customers, products, shipping, and sales performance across different regions.
 
 The ETL pipeline follows standard data engineering practices:
 
-Extract data from a CSV source
-Perform data cleaning and transformations
-Load the transformed data for analytics use cases
+* Extract data from a CSV source
+* Perform data cleaning and transformations
+* Load the transformed data for analytics use cases
 
-* Tech Stack Used
-Python
-Pandas
-Jupyter Notebook
-Git & GitHub
+<h3> Tech Stack Used </h3><br>
+
+* Python
+* Pandas
+* Jupyter Notebook
+* Git & GitHub
 
 ### Dataset
 
-File name: global_superstore.csv
+* File name: <B> global_superstore.csv </B>
+* Source type: CSV file
+* Data includes:
 
-Source type: CSV file
+    * Order details
+    * Customer information
+    * Product and category data
+    * Sales, profit, and shipping metrics
 
-Data includes:
-
-Order details
-
-Customer information
-
-Product and category data
-
-Sales, profit, and shipping metrics
-
-ETL Process Explanation
+<h2> ETL Process Explanation </h2>
 
 1. Extract
 
