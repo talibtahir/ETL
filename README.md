@@ -46,6 +46,25 @@ The ETL pipeline follows standard data engineering practices:
 * Created cleaned and structured datasets suitable for analysis.
 * Applied basic business logic for analytics readiness.
 
+### Fact and Dimension Table Design
+![Star Schema Diagram](image.png)
+
+#### Fact Table
+
+* The fact table represents transactional sales data.
+* It contains measurable business metrics.
+* Each record corresponds to a single order line and is linked to multiple dimension tables using keys.
+
+### Dimension Tables
+
+* Dimension tables store descriptive attributes used for analysis and filtering.
+
+### Data Modeling Benefit
+
+* This star schema style design improves query performance.
+* Enables easy slicing and dicing of sales data by customer, product, time, and geography.
+* Prepares the data for loading into a data warehouse or BI tools.
+
 ### Load
 
 * Saved the transformed data into a new CSV file.
