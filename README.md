@@ -62,12 +62,10 @@ The ETL pipeline follows standard data engineering practices:
 * Clone the repository
 * Open ETL_2.ipynb in Jupyter Notebook
 * Install required libraries if not already installed:
-
 ```
 pip install pandas
 ```
-
-Run the notebook cells sequentially
+* Run the notebook cells sequentially
 
 Key Learnings
 
