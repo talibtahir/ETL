@@ -67,22 +67,16 @@ pip install pandas
 ```
 * Run the notebook cells sequentially
 
-Key Learnings
+### <B> Key Learnings </B>
 
-Practical understanding of ETL pipeline development
+* Practical understanding of ETL pipeline development
+* Hands-on experience with Pandas for data transformation
+* Data cleaning and preparation for analytics use cases
+* Version control using Git and GitHub
 
-Hands-on experience with Pandas for data transformation
+### Future Enhancements
 
-Data cleaning and preparation for analytics use cases
-
-Version control using Git and GitHub
-
-Future Enhancements
-
-Load data into a SQL database
-
-Automate the pipeline using Airflow
-
-Add logging and error handling
-
-Convert notebook into a Python script
+* Load data into a SQL database
+* Automate the pipeline using Airflow in future 
+* Add logging and error handling
+* Convert notebook into a Python script
