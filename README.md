@@ -12,7 +12,7 @@ The ETL pipeline follows standard data engineering practices:
 * Perform data cleaning and transformations
 * Load the transformed data for analytics use cases
 
-<h3> Tech Stack Used </h3><br>
+<h3> Tech Stack Used </h3>
 
 * Python
 * Pandas
@@ -32,49 +32,40 @@ The ETL pipeline follows standard data engineering practices:
 
 <h2> ETL Process Explanation </h2>
 
-1. Extract
+### Extract
 
-Loaded the CSV file using Pandas.
+* Loaded the CSV file using Pandas.
+* Inspected schema, data types, and null values.
 
-Inspected schema, data types, and null values.
+### Transform
 
-2. Transform
+* Removed duplicate records.
+* Handled missing values.
+* Converted date columns to proper datetime format.
+* Standardized column names.
+* Created cleaned and structured datasets suitable for analysis.
+* Applied basic business logic for analytics readiness.
 
-Removed duplicate records.
+### Load
 
-Handled missing values.
-
-Converted date columns to proper datetime format.
-
-Standardized column names.
-
-Created cleaned and structured datasets suitable for analysis.
-
-Applied basic business logic for analytics readiness.
-
-3. Load
-
-Saved the transformed data into a new CSV file.
-
-Prepared the data for downstream analytics, dashboards, or database loading.
+* Saved the transformed data into a new CSV file.
+* Prepared the data for downstream analytics, dashboards, or database loading.
 
 <h3><B> Project Structure </B></h3>
 
-ETL_2.ipynb → Jupyter Notebook containing the ETL pipeline code
+* <B> ETL_2.ipynb :</B> Jupyter Notebook containing the ETL pipeline code
+* <B> global_superstore.csv :</B> Raw input dataset
+* <B> README.md :</B> Project documentation
 
-global_superstore.csv → Raw input dataset
+## How to Run the Project
 
-README.md → Project documentation
+* Clone the repository
+* Open ETL_2.ipynb in Jupyter Notebook
+* Install required libraries if not already installed:
 
-How to Run the Project
-
-Clone the repository
-
-Open ETL_2.ipynb in Jupyter Notebook
-
-Install required libraries if not already installed:
-
+```
 pip install pandas
+```
 
 Run the notebook cells sequentially
 
